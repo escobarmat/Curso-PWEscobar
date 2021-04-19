@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <form action="">
+        <h1>Rellene el siguiente Formulario</h1>
+        <p>
+            <label for="nom">Nombre:</label>
+            <input type="text" id="nom" placeholder="Escirbe tu nombre.."><br/><br/>
+            <label for="ape">Apellido:</label>
+            <input type="text" id="ape" placeholder="Escribe tu apellido"><br/><br/>
+            <label for="tel">Telefono:</label>
+            <input type="number" id="tel" placeholder="Escribe tu número"><br/><br/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Escribe tu Email">
+        </p>
+        <label for="amb">Ambito de trabajo:</label>
+            <ul>
+                <li><input type="radio" name="amb" value="publico">
+                <label>Público</label></li>
+                <li><input type="radio" name="amb" value="privado">
+                <label>Privado</label></li>
+            </ul>
+        <label for="lug">Lugar de Trabajo:</label>
+            <select name="lug" id="lug">
+                <option value="argentina">Argentina</option>
+                <option value="exterior">Exterior</option>
+            </select>
+        <p>
+            <label for="comentarios">Descripcion del empleo:</label><br/>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>
