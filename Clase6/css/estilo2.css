@@ -1,0 +1,32 @@
+body{
+    margin: 0; /*Aqui si le pude sacar el margen por defecto*/
+}
+.contenedor{
+    padding-left: 0; /*Aca quise sacarle el margen por defecto pero sigue estando */
+    padding-top: 0;
+    border: 2px solid black;
+    margin:auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+}
+.contenedor div{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-size: 20px;
+}
+.cuadrado1{
+    background: red;
+}
+.cuadrado2{
+    background: blue;
+}
+.cuadrado3{
+    background: green;
+}

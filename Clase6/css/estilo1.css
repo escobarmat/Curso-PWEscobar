@@ -1,0 +1,26 @@
+.contenedor{
+    border: 2px solid black;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* height: 600px; */
+    width: 600px; 
+}
+.contenedor div{
+    /* height: 200px; */
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-size: 20px;
+}
+.cuadrado1{
+    background: red;
+}
+.cuadrado2{
+    background: blue;
+}
+.cuadrado3{
+    background: green;
+}
