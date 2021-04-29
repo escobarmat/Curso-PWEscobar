@@ -15,12 +15,12 @@
     color: white;
     font-size: 20px;
 }
-.cuadrado1{
+.contenedor :first-child{
     background: red;
 }
-.cuadrado2{
+.contenedor :nth-child(2){
     background: blue;
 }
-.cuadrado3{
+.contenedor :last-child{
     background: green;
 }
