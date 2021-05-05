@@ -87,4 +87,6 @@ p{
     box-shadow: 0 0 5px 1px grey;
     color:rgb(193, 223, 133);
     background: grey;
+    transform: rotate(720deg);
+    transition: all 0.5s linear 0.1s;
 }
