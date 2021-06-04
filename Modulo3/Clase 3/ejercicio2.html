@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    
+    <!-- Ejercicio 2 
+
+    Crear una función que reciba como parámetro un array de números y devuelva el mayor.-->
+
+    <script>
+        var letra='';
+        var cantidad=0;       
+        var array=[];       
+        letra=prompt('Si quiere ingresar un Numero Presione y','');
+        while(letra=='y'){
+            array[cantidad]=prompt('Ingrese el Numero','');            
+            cantidad=cantidad+1;
+            letra=prompt('Si quiere ingresar otro Numero presione y','');
+        }
+        var mayor=parseInt(array[0]);
+        for(var i=0;i<cantidad;i++)
+        {
+            if(array[i]>mayor)
+            {
+                 mayor=parseInt(array[i]);
+            }            
+        }
+        document.write(array);
+        document.write('<br><br>');
+        document.write('El mayor es: '+mayor+'');
+
+    </script>
+    
+</body>
+</html>
