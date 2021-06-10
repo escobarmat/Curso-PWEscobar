@@ -23,6 +23,7 @@
             letra=prompt('Si quiere ingresar otro Numero presione y','');
         }
         var mayor=parseInt(array[0]);
+        function mifuncion(){
         for(var i=0;i<cantidad;i++)
         {
             if(array[i]>mayor)
@@ -30,6 +31,8 @@
                  mayor=parseInt(array[i]);
             }            
         }
+        }
+        mifuncion(array);
         document.write(array);
         document.write('<br><br>');
         document.write('El mayor es: '+mayor+'');
