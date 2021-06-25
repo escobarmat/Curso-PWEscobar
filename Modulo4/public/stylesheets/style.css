@@ -1,0 +1,78 @@
+body{
+  margin: 0 auto;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #DCDCDC;
+  height: 1000px;
+  padding-top: 80px;
+}
+
+a {
+  color: #00B7FF;
+}
+nav{
+  margin-bottom: 30px;
+}
+h1{
+  color: brown;
+  background-color: #CD853F;
+  padding: 5px;
+}
+h3{
+  color: 		#336666;
+}
+h5{
+  color: #993333;
+}
+.formulario{
+  margin-top: 50px;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  font-family: 'Skranji', cursive;
+}
+.adentro{
+    background-color:#CCCCCC;
+    padding: 10px;
+    border:2px solid;
+}
+.submit{
+  text-align: center;
+}
+.columnas{
+  margin-top: 50px;
+  text-align: start;
+  margin-bottom: 100px;
+}
+.fila{
+  margin-bottom: 50px;
+  background-color: #DCDCDC;
+}
+.fila1{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.item{
+  border:2px solid#669999;
+  margin: 10px;
+}
+.quienes{
+  margin-top: 50px;
+}
+.fila3{
+  display: flex;
+  align-items: center;
+  text-align: start;
+  background-color:#CCCCCC;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+p{
+  font-family: 'Skranji', cursive;
+}
+.home{
+  margin-top: 50px;
+}

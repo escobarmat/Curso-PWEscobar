@@ -13,10 +13,19 @@
 
 Programar un contador de caracteres para un textarea. -->
 <form action="" name="formulario" class="formulario">
-    <textarea name="textarea" id="" cols="30" rows="10" placeholder="Ingrese un texto..."></textarea>
+    <textarea name="textarea" id="txt" cols="30" rows="10" onkeyup="funcion()" onkeydown="funcion()" placeholder="Ingrese un texto..."></textarea>
     <input type="button" onclick="mifuncion()" value="Enviar">
 </form>
-
+ <h1 id="parrafo"></h1>
+<script>
+    function funcion(){
+        var valor= parseInt(document.formulario.textarea.value.length);
+        document.getElementById('parrafo').innerHTML=valor;
+    } 
+    
+   
+    
+</script>
 
 <script type="text/javascript" src="ejercicio2.js"></script>
 </body>
